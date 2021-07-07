@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const updateTemperature = () => {
-        document.querySelector('#temperature').innerText = thermostat.temperature;
-        document.querySelector('#temperature').className = thermostat.energyUsage();
-      }
+  const updateTemperature = () => {
+    document.querySelector('#temperature').innerText = thermostat.temperature;
+    document.querySelector('#temperature').className = thermostat.energyUsage();
+  }
   
     const thermostat = new Thermostat();
     updateTemperature();
@@ -33,8 +33,4 @@ document.addEventListener("DOMContentLoaded", () => {
       document.querySelector('#power-saving-status').innerText = 'off';
       updateTemperature();
     })
-    const updateTemperature = () => {
-        document.querySelector('#temperature').innerText = thermostat.temperature;
-        document.querySelector('#temperature').className = thermostat.energyUsage();
-      }
   });
