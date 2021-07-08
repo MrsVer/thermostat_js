@@ -2,8 +2,12 @@ h1 {
     color: red;
 }
 
-body {
+h2 {
   color: blue;
+}
+
+body {
+  color: black;
 }
 
 .low-usage {
